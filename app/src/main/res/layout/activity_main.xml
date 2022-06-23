@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvProfileInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/karla"
+        android:text="@string/profile_info"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/e_mail"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/username"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/first_name"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/last_name"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/karla"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClear"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/karla"
+        android:text="@string/clear"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:longClickable="true"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
